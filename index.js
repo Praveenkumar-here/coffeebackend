@@ -14,7 +14,7 @@ app.get('/login', (req,res) => {
 })
 
 app.get('/medium', (req,res) => {
-    res.send('<h1>Blog here</h1>')
+    res.send('<h1>Blog Will come up here!</h1>')
 })
 
 app.get('/Coffee', (req,res) => {
