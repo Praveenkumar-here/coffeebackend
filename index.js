@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/login', (req,res) => {
-    res.send('<h1>Login here!<h1>')
+    res.sendFile(path.join(__dirname, 'views/forms.html'))
 })
 
 app.get('/medium', (req,res) => {
